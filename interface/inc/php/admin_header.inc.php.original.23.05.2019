@@ -1,0 +1,114 @@
+<?php
+############################
+### 2018 MYSQLI SUPPORT ###
+############################
+require_once ("admin_init.inc.php");
+//print_r($_COOKIE);
+if ($angemeldet == 1)
+	{
+	$aAdmin = mysqli_query($ladmin,"SELECT * FROM ".ASTCC.".webadmins WHERE websession='".$my_session."' LIMIT 1");
+	$AAdmin = mysqli_query($ladmin,"SELECT * FROM asterisk.webadmins WHERE websession='".$my_session."' LIMIT 1");
+	} 
+$statadmin = mysqli_fetch_array($aAdmin); $statadmin1 = mysqli_fetch_array($AAdmin);
+
+echo'<html><head>
+	<link rel="stylesheet" type="text/css" href="../inc/css/new.css">
+	<script type="text/javascript" language="JavaScript" src="../inc/js/highlite_trs.js"></script>
+	<style> a{ text-decoration:none; } img { border: 0; } 
+	.logof {
+border-size: 0px; border-style: none; 	background: inherit;
+background-image:url(../imgs/navig/stop.png);
+font-weight: bold; font-size: 17px; font-family: Arial, Helvetica, sans-serif; color:white;
+cursor: hand; cursor: pointer; adding: 0px; background-repeat:no-repeat; background-position:center;
+}
+.logofh {
+border-size: 0px; border-style: none; 	background: inherit;
+background-image:url(../imgs/navig/stoph.png);
+font-weight: bold; font-size: 17px; font-family: Arial, Helvetica, sans-serif; color:white;
+cursor: hand; cursor: pointer; adding: 0px; background-repeat:no-repeat; background-position:center;
+}
+
+	</style>
+	</head>
+	<body BACKGROUND="../imgs/fnd.jpg">
+	<table border="0" cellpadding="0" cellspacing="0" align="center" width="100%"><tr>
+	<td valign="bottom" colspan="2">
+	<table width="100%" border="0"><tr>
+	<td><img src="../imgs/veolis.png" width="180" height="100" /></td>
+	<td>';
+	
+require_once("admin_choice.php");
+
+echo'</td>
+	<td><div align="center">
+	<OBJECT CLASSID="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+	WIDTH="100" HEIGHT="100"
+	CODEBASE="http://active.macromedia.com/flash5/cabs/swflash.cab#version=5,0,0,0">
+	<PARAM NAME="MOVIE" VALUE="14.swf">
+	<PARAM NAME="PLAY" VALUE="true">
+	<PARAM NAME="LOOP" VALUE="true">
+	<PARAM NAME="WMODE" VALUE="Transparent">
+	<PARAM NAME="QUALITY" VALUE="high">
+	<EMBED SRC="14.swf" WIDTH="100" HEIGHT="100" PLAY="true" LOOP="true" WMODE="Transparent" QUALITY="high"
+	PLUGINSPAGE="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash">
+	</EMBED>
+	</OBJECT><br/>'.$timestamp=date("j F Y",time()).'</div>
+	</td></tr></table>
+	</td></tr>
+	<td  colspan="2">';
+
+if ($angemeldet == 1)
+    {
+	?>
+	<table align="center" border="0" vspace="0"><tr>
+	<td><form><input type="button" class="yo" onMouseOver="this.className='yoh'" onMouseOut="this.className='yo'" 
+	value="<?=translate("callshop")?>" OnClick="window.location.href='../admin/callshop.php'"></form></td>
+	
+	<td><form><input type="button" class="yo" onMouseOver="this.className='yoh'" onMouseOut="this.className='yo'" 
+	value="<?=translate("Boutique")?>"  onClick="window.open('../admin/myshop/index.php?reftime=<?=rand(1,999999)?>', 'windowname10', 'width=900, height=800, directories=no, location=no, menubar=no, resizable=yes, scrollbars=yes, status=no, toolbar=no')"></form></td>
+	
+	<td><form><input type="button" class="yo" onMouseOver="this.className='yoh'" onMouseOut="this.className='yo'" 
+	value="Cyber admin" OnClick="window.location.href='../admin/gestioncyber.php'"></form></td>
+	
+	<td><form><input type="button" class="yo" onMouseOver="this.className='yoh'" onMouseOut="this.className='yo'" 
+	value="<?=translate("summary")?>" OnClick="window.location.href='../admin/billedcalls.php'"></form></td>
+	
+	<td><form><input type="button" class="yo" onMouseOver="this.className='yoh'" onMouseOut="this.className='yo'" 
+	value="<?=translate("linkadm3")?>" OnClick="window.location.href='../admin/rates_sorted.php'"></form></td>
+	
+	<td><form><input type="button" class="yo" onMouseOver="this.className='yoh'" onMouseOut="this.className='yo'" 
+	value="<?=translate("linkallcalls")?>" OnClick="window.location.href='../admin/all_calls.php'"></form></td>
+	
+	<td><form><input type="button" class="yo" onMouseOver="this.className='yoh'" onMouseOut="this.className='yo'" 
+	value="<?=translate("myaccount")?>" OnClick="window.location.href='../admin/myaccount.php'"></form></td>
+	<?php
+	if ($statadmin['admin_status'] == 1 || $statadmin1['admin_status'] == 1)
+		{
+		?>
+		<td><form><input type="button" class="yo" onMouseOver="this.className='yoh'" onMouseOut="this.className='yo'" 
+		value="<?=translate("linkcust"); ?>" OnClick="window.location.href='../admin/show_customer.php'"></form></td>
+		
+		<td><form><input type="button" class="yo" onMouseOver="this.className='yoh'" onMouseOut="this.className='yo'" 
+		value="<?=translate("linkadm1"); ?>" OnClick="window.location.href='../admin/show_admins.php'"></form></td>
+		
+		
+		<td><form><input type="button" class="yo" onMouseOver="this.className='yoh'" onMouseOut="this.className='yo'" 
+		value="<?=translate("linkadm6"); ?>" OnClick="window.location.href='../admin/systemconfig.php'"></form></td></tr></table>
+		<?php
+		}
+	else
+		{
+		echo'</tr></table>'; }
+		}
+
+	echo'</td></tr>
+		<tr><td>';
+    if ($angemeldet != 1)
+		{
+    	if(!@include ("admin_login_frm.inc.php") )
+			{
+			echo'<b class="boldred">'.translate("includeloginboxfailed").'</b>';
+			}
+		}
+     echo '</td><td width="100%" align="center">';
+?>

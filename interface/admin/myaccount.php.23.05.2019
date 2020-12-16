@@ -1,0 +1,59 @@
+<?
+require ("../inc/php/admin_header.inc.php");
+require ("../inc/php/astcc.inc.php");
+if($angemeldet == 1)
+{
+$objAstcc = new DB(); $objAstcc->connect(ASTCC);
+$Us = explode("_", $bdd);
+
+$yes = mysql_fetch_array(mysql_query("SELECT soldettc FROM admin.custom WHERE user='".$Us[1]."'"));
+echo'<table border="0" align="center" width="600" class="callisttbl"><tr>
+	<td colspan="2">';
+
+
+echo'<table border="0" align="center" width="600"><tr>
+	<td align="center">'.$dictionary["balance"].' : <strong>'.round(($yes['soldettc'] /10000),3).'</strong> '.$devise.'</td>
+	</tr><tr>
+	<td align="center">'.$dictionary["rech"].'</td>
+	</tr></table><br/></td></tr>';
+
+
+$detail = mysql_fetch_assoc(mysql_query("SELECT SUM(montant) as montant FROM admin.prepaid WHERE client='".$Us[1]."'"));
+$yo = (mysql_query("SELECT * FROM admin.prepaid WHERE client='".$Us[1]."'"));
+
+echo'<tr>
+	<td class="callist_td" width="200"><div  align="left"><strong>'.$dictionary["date"].'</strong></div></td>
+	<td class="callist_td" width="200"><div  align="left"><strong>'.$dictionary["amount"].'</strong></div></td>
+	</tr>';
+
+while($pre=mysql_fetch_row($yo))
+{
+echo'<tr>
+	<td class="callist_td" width="200"><div  align="left">'.$pre[2].'</td>
+	<td class="callist_td" width="200"><div  align="left">'.($pre[3]/10000).' '.$devise.'</td></tr>';
+}
+
+echo'<tr>
+	<td colspan="2" align="center">'.$dictionary["amount"].' TOTAL : '.round(($detail['montant'] /10000),3).' '.$devise.'</td>
+	</tr></table>';
+	
+echo '<br/><form><input type="button" class="butlink" value="Login History" OnClick="window.location.href=\''.$PHP_SELF.'?log=log\'"></form>';
+if($_GET["log"] != '')
+{
+echo '<br/><table border="1" align="center" width="600">';
+$UseR= split('_',$bdd);
+$Ho = (mysql_query("SELECT * FROM admin.sessions WHERE user='".$UseR[1]."' LIMIT 30"));
+while($Hi=mysql_fetch_row($Ho))
+							  {
+echo '<tr><td class="callist_td" width="200">'.$Hi[1].'</td>';
+if ($Hi[4] != '0000-00-00 00:00:00')
+{echo '<td class="callist_td" width="200"><font color="red" size="2">'.$Hi[4].'</font></td>';}
+else {echo '<td class="callist_td" width="200"><font color="green" size="2">'.$Hi[3].'</font></td>';}
+echo '<td class="callist_td" width="200">'.$Hi[5].'</td></tr>';}
+							  }
+$objAstcc->closeDb();
+}
+else
+{ echo 'please login'; }
+require ("../inc/php/admin_footer.inc.php");
+?>

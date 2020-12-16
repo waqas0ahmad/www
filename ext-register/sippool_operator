@@ -1,0 +1,67 @@
+[trunk_operator]
+switch => Realtime/@trunk_operator
+include => parkedcalls
+
+;ONLY ACCOUNT WITH SAME GROUP CAN CALL OTHER ACCOUNT
+exten => _11XXX.,1,MYSQL(Connect connid localhost vastefaire69 vastefaire69 trunk_operator)
+exten => _11XXX.,2,MYSQL(Query resultid ${connid} SELECT\ account\, \gebdat\ FROM\ webuser\ where\ account like \'${EXTEN}%\')
+exten => _11XXX.,3,MYSQL(Fetch foundRow ${resultid} NEWEXTEN GROUPE )
+exten => _11XXX.,4,MYSQL(Clear ${resultid})
+exten => _11XXX.,5,MYSQL(Disconnect ${connid})
+
+exten => _11XXX.,n,MYSQL(Connect connid localhost vastefaire69 vastefaire69 trunk_operator)
+exten => _11XXX.,n,MYSQL(Query resultid ${connid} SELECT\ gebdat\ FROM\ webuser\ where\ account=\'${CDR(accountcode)}\')
+exten => _11XXX.,n,MYSQL(Fetch foundRow ${resultid} MYGROUPE )
+exten => _11XXX.,n,MYSQL(Clear ${resultid})
+exten => _11XXX.,n,MYSQL(Disconnect ${connid})
+
+exten => _11XXX.,n,GotoIf($["${GROUPE}" == "${MYGROUPE}"]?12:15)
+exten => _11XXX.,n,noop(${NEWEXTEN} / ${GROUPE} / ${MYGROUPE})
+exten => _11XXX.,n,GotoIf($["${NEWEXTEN}"]?14:15)
+exten => _11XXX.,n,DIAL(SIP/${NEWEXTEN},30)
+exten => _11XXX.,15,Hangup()
+
+
+;GUADELOUPE
+exten => _0590.,1,Set(CDR(userfield)=${SIPCHANINFO(recvip)})
+exten => _0590.,n,DeadAGI(astcc_operator.agi,${CDR(accountcode)},590${EXTEN:1},4,${SIPCHANINFO(recvip)})
+exten => _0590.,n,Hangup()
+exten => _0690.,1,Set(CDR(userfield)=${SIPCHANINFO(recvip)})
+exten => _0690.,n,DeadAGI(astcc_operator.agi,${CDR(accountcode)},590${EXTEN:1},4,${SIPCHANINFO(recvip)})
+exten => _0690.,n,Hangup()
+;MARTINIQUE
+exten => _0596.,1,Set(CDR(userfield)=${SIPCHANINFO(recvip)})
+exten => _0596.,n,DeadAGI(astcc_operator.agi,${CDR(accountcode)},596${EXTEN:1},4,${SIPCHANINFO(recvip)})
+exten => _0596.,n,Hangup()
+exten => _0696.,1,Set(CDR(userfield)=${SIPCHANINFO(recvip)})
+exten => _0696.,n,DeadAGI(astcc_operator.agi,${CDR(accountcode)},596${EXTEN:1},4,${SIPCHANINFO(recvip)})
+exten => _0696.,n,Hangup()
+;GUYANE FRANCAISE
+exten => _0594.,1,Set(CDR(userfield)=${SIPCHANINFO(recvip)})
+exten => _0594.,n,DeadAGI(astcc_operator.agi,${CDR(accountcode)},594${EXTEN:1},4,${SIPCHANINFO(recvip)})
+exten => _0594.,n,Hangup()
+exten => _0694.,1,Set(CDR(userfield)=${SIPCHANINFO(recvip)})
+exten => _0694.,n,DeadAGI(astcc_operator.agi,${CDR(accountcode)},594${EXTEN:1},4,${SIPCHANINFO(recvip)})
+exten => _0694.,n,Hangup()
+
+exten => _0ZX.,1,Set(CDR(userfield)=${SIPCHANINFO(recvip)})
+exten => _0ZX.,n,DeadAGI(astcc_operator.agi,${CDR(accountcode)},33${EXTEN:1},4,${SIPCHANINFO(recvip)})
+exten => _0ZX.,n,Hangup()
+
+exten => _X.,1,Set(CDR(userfield)=${SIPCHANINFO(recvip)})
+exten => _X.,n,DeadAGI(astcc_operator.agi,${CDR(accountcode)},${EXTEN},4,${SIPCHANINFO(recvip)})
+exten => _X.,n,Hangup()
+
+exten => _00X.,1,Set(CDR(userfield)=${SIPCHANINFO(recvip)})
+exten => _00X.,n,DeadAGI(astcc_operator.agi,${CDR(accountcode)},${EXTEN:2},4,${SIPCHANINFO(recvip)})
+exten => _00X.,n,Hangup()
+
+#include /home/www/operator/inc/did/*
+
+exten => t,1,Hangup()
+exten => i,1,Congestion()
+exten => h,1,Hangup()
+exten => s,1,Hangup()
+exten => _.,1,Hangup()
+
+

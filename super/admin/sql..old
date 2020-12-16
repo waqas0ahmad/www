@@ -1,0 +1,115 @@
+<?
+require('../../../dbadmin.php');
+require('header.php');
+?>
+<form method="get" action="<? $_SERVER['PHP_SELF'] ?>">
+<table border="1" align="center">
+<tr>
+	<td>
+<!-- Selection de l'action SQL -->
+ACTION: <select name="action1">
+  		<OPTION value=""></OPTION>
+  		<OPTION value="update">update</OPTION>
+  		<OPTION value="insert into">insert</OPTION>
+		</select>
+	</td><td>
+<!-- Selection de la database et table -->
+DATABASE.TABLE: <select name="database">
+		<?
+		$db_list = mysql_list_dbs($link);
+		while ($row = mysql_fetch_row($db_list))
+			{
+			$yo=mysql_list_tables($row[0]);
+				while($yi=mysql_fetch_row($yo))
+					{
+					if($yi[0] == 'routes')
+						{
+						echo '<option value="'.$row[0].'.'.$yi[0].'">'.$row[0].'.'.$yi[0].'</option>';
+						}
+					}
+			}
+		?>
+</select>
+	</td>
+	<td>
+      <div align="center">
+        <!-- Selection du champ a modifier -->
+        QUOI: 
+  <select name="targetchamp">	
+    <?
+	$zz = col("astcc_bingo.routes");
+	
+	for ($a = 0,$b = sizeof($zz);$a < $b;$a++)
+		{
+		echo'<OPTION value="'.$zz[$a].'">'.$zz[$a].'</OPTION>';
+		}
+	?>
+  </select>
+        
+      </div></td><tr>
+	<td>
+      <p>
+        <!-- Selection du champ a modifier -->VALEUR 
+        <input type="text" name="valeur" />
+        
+          <!-- Selection du champ ou rechercher -->
+        NOM DU CHAMP: 
+        <select name="champ">	
+          <?
+	$zy = col("astcc_bingo.routes");
+	
+	for ($c = 0,$d = sizeof($zy);$c < $d;$c++)
+		{
+		echo'<OPTION value="'.$zy[$c].'">'.$zy[$c].'</OPTION>';
+		}
+	?>
+        </select>
+        </p>
+      </td><td>
+<!-- Selection methode de recherche -->									
+OU: <select name="action3">
+		<OPTION value=""></OPTION>
+		<OPTION value="like">like</OPTION>
+		<OPTION value="=">=</OPTION>
+		</select>
+	</td><td height="50">
+<!-- Valeur ou morceau de valeur a rechercher -->
+VALEUR CIBLE: <input type="text" name="recherche" />
+</td></tr>
+<td colspan="3">
+  <div align="center">
+    <p>&nbsp;      </p>
+    <p>
+      <input type="submit" />
+      </p>
+  </div></td></table>
+</form>
+
+
+<?
+if(!empty($_GET['action1']))
+	{
+	if(empty($_GET['valeur']) && !empty($_GET['database'])){echo'ERREUR INDIQUEZ UNE VALEUR !';
+	echo "<SCRIPT LANGUAGE='JavaScript'>setTimeout('window.location.replace(\"sql.php\")',30000)</script>";}
+	if(empty($_GET['recherche']) && !empty($_GET['database'])){echo'ERREUR INDIQUEZ UNE VALEUR CIBLE !';
+	echo "<SCRIPT LANGUAGE='JavaScript'>setTimeout('window.location.replace(\"sql.php\")',30000)</script>";}
+
+	if($_GET['action1'] == 'update')
+		{
+		if($_GET['action3'] == 'like')
+		{$a= $_GET['champ'].' LIKE \''.$_GET['recherche'].'%\'';}else{$a= $_GET['champ'].' =\''.$_GET['recherche'].'\'';}
+		mysql_query("update ".$_GET['database']." set ".$_GET['targetchamp']."='".$_GET['valeur']."' where ".$a." ");
+		}
+	echo "<SCRIPT LANGUAGE='JavaScript'>setTimeout('window.location.replace(\"sql.php\")',3000)</script>";
+	}
+
+$zobilamouche = mysql_query("select name from asterisk.trunks");
+while($turlututu = mysql_fetch_array($zobilamouche))
+{
+echo $turlututu["name"].'<br>';
+}
+
+
+
+mysql_close($link);
+?>

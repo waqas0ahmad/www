@@ -1,0 +1,36 @@
+[sippool_xy1622]
+switch => Realtime/@sippool_xy1622
+include => parkedcalls
+
+exten => s,1,Goto(route-did2,s,1)
+
+exten => _0ZX.,1,Set(CDR(userfield)=${SIPCHANINFO(recvip)})
+exten => _0ZX.,n,DeadAGI(astcc_xy1622.agi,${CDR(accountcode)},33${EXTEN:1},4,${SIPCHANINFO(recvip)})
+exten => _0ZX.,n,Hangup()
+
+exten => _X.,1,Set(CDR(userfield)=${SIPCHANINFO(recvip)})
+exten => _X.,n,DeadAGI(astcc_xy1622.agi,${CDR(accountcode)},${EXTEN},4,${SIPCHANINFO(recvip)})
+exten => _X.,n,Hangup()
+
+;exten => _00X.,1,log(NOTICE,/${STRFTIME(${EPOCH},,%Y-%m-%d %H:%M:%S)})/${EXTEN:2}/${SIPCHANINFO(recvip)}/${SIP_HEADER(User-Agent)}/${SIP_HEADER(contact)}/${CDR(accountcode)})
+exten => _00X.,1,Set(CDR(userfield)=${SIPCHANINFO(recvip)})
+exten => _00X.,n,DeadAGI(astcc_xy1622.agi,${CDR(accountcode)},${EXTEN:2},4,${SIPCHANINFO(recvip)})
+exten => _00X.,n,Hangup()
+
+exten => _8887XXX,1,DIAL(SIP/${EXTEN},30)
+exten => _8887XXX,n,Hangup()
+
+exten => t,1,Hangup()
+exten => i,1,Congestion()
+
+[route-did2]
+exten => t,1,Hangup()
+exten => i,1,Hangup()
+
+exten => s,1,Set(DN=${SIP_HEADER(TO):5})
+exten => s,n,Set(DN=${CUT(DN,@,1)})
+exten => s,n,Set(DN=${DN:-5})
+exten => s,n,NooP(${DN})
+exten => s,n,GoTo(route-did,${DN},1)
+#include /home/www/xy1622/inc/did/did.conf
+

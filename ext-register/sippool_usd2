@@ -1,0 +1,49 @@
+[sippool_usd2]
+switch => Realtime/@sippool_usd2
+
+exten => s,1,Answer()
+exten => s,n,system(echo "Appel entrant par extension s" >> /home/www/usd2/log/remote.txt)
+exten => s,n,Goto(sippool_usd2,${EXTEN},1)
+
+
+; On envoi au fichier log
+exten => _X.,1,system(echo "${STRFTIME(${EPOCH},,%d%m%Y-%H:%M:%S)} - ${CALLERID(num)} - ${EXTEN} - ${SIPCHANINFO(recvip)}" >> /home/www/usd2/log/remote.txt)
+; On commence par tester si c'est la bonne ip pour continuer ou on raccroche
+exten => _X.,n,GotoIf($[${SIPCHANINFO(recvip)} = 37.187.150.199]?setaccount:endcall)
+; C'est la bonne IP on fabrique une variable avec le compte du client
+exten => _X.,n(setaccount),Set(CDR(accountcode)=9998001)
+; On met les 7 premiers chiffres envoyés dans une variable
+exten => _X.,n(setaccount),Set(TEST(startnumber)= ${EXTEN:0:7})
+; On montre le résultat de cette variable dans la CLI uniquement pour l'instant
+exten => _X.,n,Noop(${TEST(startnumber)})
+; On lance l'appel
+exten => _X.,n,DeadAGI(astcc_usd2.agi,${CDR(accountcode)},${EXTEN},4,${SIPCHANINFO(recvip)})
+; On raccroche
+exten => _X.,n(endcall),Hangup()
+
+
+
+; On envoi au fichier log
+exten => _.,1,system(echo "${STRFTIME(${EPOCH},,%d%m%Y-%H:%M:%S)} - ${CALLERID(num)} - ${EXTEN} - ${SIPCHANINFO(recvip)}" >> /home/www/usd2/log/remote.txt)
+; On commence par tester si c'est la bonne ip pour continuer ou on raccroche
+exten => _.,n,GotoIf($[${SIPCHANINFO(recvip)} = 37.187.150.199]?setaccount:endcall)
+; C'est la bonne IP on fabrique une variable avec le compte du client
+exten => _.,n(setaccount),Set(CDR(accountcode)=9998001)
+; On met les 7 premiers chiffres envoyés dans une variable
+exten => _.,n(setaccount),Set(TEST(startnumber)= ${EXTEN:0:7})
+; On montre le résultat de cette variable dans la CLI uniquement pour l'instant
+exten => _.,n,Noop(${TEST(startnumber)})
+; On lance l'appel
+exten => _.,n,DeadAGI(astcc_usd2.agi,${CDR(accountcode)},${EXTEN},4,${SIPCHANINFO(recvip)})
+; On raccroche
+exten => _.,n(endcall),Hangup()
+
+
+exten => h,1,Hangup()
+
+exten => t,1,system(echo "${STRFTIME(${EPOCH},,%d%m%Y-%H:%M:%S)} - TIMEOUT - ${EXTEN} - ${SIPCHANINFO(recvip)}" >> /home/www/usd2/log/remote.txt)
+exten => t,n,Hangup()
+
+exten => i,1,system(echo "${STRFTIME(${EPOCH},,%d%m%Y-%H:%M:%S)} - CONGESTION INVALID EXTENTION - ${EXTEN} - ${SIPCHANINFO(recvip)}" >> /home/www/usd2/log/remote.txt)
+exten => i,n,Congestion()
+

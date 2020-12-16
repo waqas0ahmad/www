@@ -1,0 +1,106 @@
+OK - IP declaree 90.36.212.201 - ip interceptee 90.36.212.201
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.10.1/Asterisk/AGI.pm line 1055, <STDIN> line 25.
+OK - IP declaree 90.36.212.201 - ip interceptee 90.36.212.201
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.10.1/Asterisk/AGI.pm line 1055, <STDIN> line 25.
+OK - IP declaree 90.36.212.201 - ip interceptee 90.36.212.201
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.10.1/Asterisk/AGI.pm line 1055, <STDIN> line 25.
+OK - IP declaree 90.36.212.201 - ip interceptee 90.36.212.201
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.10.1/Asterisk/AGI.pm line 1055, <STDIN> line 25.
+OK - IP declaree 90.36.212.201 - ip interceptee 90.36.212.201
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.10.1/Asterisk/AGI.pm line 1055, <STDIN> line 22.
+OK - IP declaree 94.23.44.59 - ip interceptee 94.23.44.59
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.10.1/Asterisk/AGI.pm line 1055, <STDIN> line 25.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.10.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+OK - IP declaree 94.23.44.59 - ip interceptee 94.23.44.59
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.10.1/Asterisk/AGI.pm line 1055, <STDIN> line 25.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.10.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+OK - IP declaree 94.23.44.59 - ip interceptee 94.23.44.59
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.10.1/Asterisk/AGI.pm line 1055, <STDIN> line 25.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.10.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+OK - IP declaree 94.23.44.59 - ip interceptee 94.23.44.59
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.10.1/Asterisk/AGI.pm line 1055, <STDIN> line 22.
+OK - IP declaree 94.23.44.59 - ip interceptee 94.23.44.59
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.10.1/Asterisk/AGI.pm line 1055, <STDIN> line 22.
+OK - IP declaree 94.23.44.59 - ip interceptee 94.23.44.59
+OK - IP declaree 94.23.44.59 - ip interceptee 94.23.44.59
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.10.1/Asterisk/AGI.pm line 1055, <STDIN> line 22.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.10.1/Asterisk/AGI.pm line 1055, <STDIN> line 24.
+OK - IP declaree 94.23.44.59 - ip interceptee 94.23.44.59
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.10.1/Asterisk/AGI.pm line 1055, <STDIN> line 22.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.10.1/Asterisk/AGI.pm line 1055, <STDIN> line 24.
+OK - IP declaree 94.23.44.59 - ip interceptee 94.23.44.59
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.10.1/Asterisk/AGI.pm line 1055, <STDIN> line 22.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.10.1/Asterisk/AGI.pm line 1055, <STDIN> line 24.
+OK - IP declaree 94.23.44.59 - ip interceptee 94.23.44.59
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.10.1/Asterisk/AGI.pm line 1055, <STDIN> line 22.
+OK - IP declaree 94.23.44.59 - ip interceptee 94.23.44.59
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.10.1/Asterisk/AGI.pm line 1055, <STDIN> line 22.
+OK - IP declaree 94.23.44.59 - ip interceptee 94.23.44.59
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.10.1/Asterisk/AGI.pm line 1055, <STDIN> line 22.
+OK - IP declaree 94.23.44.59 - ip interceptee 94.23.44.59
+OK - IP declaree 94.23.44.59 - ip interceptee 94.23.44.59
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.10.1/Asterisk/AGI.pm line 1055, <STDIN> line 22.
+OK - IP declaree 94.23.44.59 - ip interceptee 94.23.44.59
+OK - IP declaree 94.23.44.59 - ip interceptee 94.23.44.59
+OK - IP declaree 94.23.44.59 - ip interceptee 94.23.44.59
+OK - IP declaree 94.23.44.59 - ip interceptee 94.23.44.59
+OK - IP declaree 94.23.44.59 - ip interceptee 94.23.44.59
+OK - IP declaree 94.23.44.59 - ip interceptee 94.23.44.59
+OK - IP declaree 94.23.44.59 - ip interceptee 94.23.44.59
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.10.1/Asterisk/AGI.pm line 1055, <STDIN> line 22.
+OK - IP declaree 94.23.44.59 - ip interceptee 94.23.44.59
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.10.1/Asterisk/AGI.pm line 1055, <STDIN> line 22.
+OK - IP declaree 94.23.44.59 - ip interceptee 94.23.44.59
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.10.1/Asterisk/AGI.pm line 1055, <STDIN> line 22.
+OK - IP declaree 94.23.44.59 - ip interceptee 94.23.44.59
+OK - IP declaree 94.23.44.59 - ip interceptee 94.23.44.59
+OK - IP declaree 94.23.44.59 - ip interceptee 94.23.44.59
+OK - IP declaree 94.23.44.59 - ip interceptee 94.23.44.59
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.10.1/Asterisk/AGI.pm line 1055, <STDIN> line 22.
+OK - IP declaree 94.23.44.59 - ip interceptee 94.23.44.59
+OK - IP declaree 94.23.44.59 - ip interceptee 94.23.44.59
+OK - IP declaree 94.23.44.59 - ip interceptee 94.23.44.59
+OK - IP declaree 94.23.44.59 - ip interceptee 94.23.44.59
+OK - IP declaree 94.23.44.59 - ip interceptee 94.23.44.59
+OK - IP declaree 94.23.44.59 - ip interceptee 94.23.44.59
+OK - IP declaree 94.23.44.59 - ip interceptee 94.23.44.59
+OK - IP declaree 94.23.44.59 - ip interceptee 94.23.44.59
+OK - IP declaree 94.23.44.59 - ip interceptee 94.23.44.59
+OK - IP declaree 94.23.44.59 - ip interceptee 94.23.44.59
+OK - IP declaree 94.23.44.59 - ip interceptee 94.23.44.59
+OK - IP declaree 94.23.44.59 - ip interceptee 94.23.44.59
+OK - IP declaree 94.23.44.59 - ip interceptee 94.23.44.59
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.10.1/Asterisk/AGI.pm line 1055, <STDIN> line 28.
+OK - IP declaree 94.23.44.59 - ip interceptee 94.23.44.59
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.10.1/Asterisk/AGI.pm line 1055, <STDIN> line 28.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.10.1/Asterisk/AGI.pm line 1055, <STDIN> line 30.
+OK - IP declaree 94.23.44.59 - ip interceptee 94.23.44.59
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.10.1/Asterisk/AGI.pm line 1055, <STDIN> line 28.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.10.1/Asterisk/AGI.pm line 1055, <STDIN> line 30.
+OK - IP declaree 94.23.44.59 - ip interceptee 94.23.44.59
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.10.1/Asterisk/AGI.pm line 1055, <STDIN> line 28.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.10.1/Asterisk/AGI.pm line 1055, <STDIN> line 30.
+OK - IP declaree 94.23.44.59 - ip interceptee 94.23.44.59
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.10.1/Asterisk/AGI.pm line 1055, <STDIN> line 28.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.10.1/Asterisk/AGI.pm line 1055, <STDIN> line 30.
+OK - IP declaree 94.23.44.59 - ip interceptee 94.23.44.59
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.10.1/Asterisk/AGI.pm line 1055, <STDIN> line 28.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.10.1/Asterisk/AGI.pm line 1055, <STDIN> line 30.
+OK - IP declaree 94.23.44.59 - ip interceptee 94.23.44.59
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.10.1/Asterisk/AGI.pm line 1055, <STDIN> line 28.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.10.1/Asterisk/AGI.pm line 1055, <STDIN> line 30.
+OK - IP declaree 94.23.44.59 - ip interceptee 94.23.44.59
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.10.1/Asterisk/AGI.pm line 1055, <STDIN> line 28.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.10.1/Asterisk/AGI.pm line 1055, <STDIN> line 30.
+OK - IP declaree 94.23.44.59 - ip interceptee 94.23.44.59
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.10.1/Asterisk/AGI.pm line 1055, <STDIN> line 28.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.10.1/Asterisk/AGI.pm line 1055, <STDIN> line 30.
+OK - IP declaree 94.23.44.59 - ip interceptee 94.23.44.59
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.10.1/Asterisk/AGI.pm line 1055, <STDIN> line 28.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.10.1/Asterisk/AGI.pm line 1055, <STDIN> line 30.
+OK - IP declaree 94.23.44.59 - ip interceptee 94.23.44.59
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.10.1/Asterisk/AGI.pm line 1055, <STDIN> line 28.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.10.1/Asterisk/AGI.pm line 1055, <STDIN> line 30.
+OK - IP declaree 94.23.44.59 - ip interceptee 94.23.44.59
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.10.1/Asterisk/AGI.pm line 1055, <STDIN> line 28.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.10.1/Asterisk/AGI.pm line 1055, <STDIN> line 30.

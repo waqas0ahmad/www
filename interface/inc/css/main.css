@@ -1,0 +1,990 @@
+/* ======================================
+Stylesheets 
+=======================================*/
+
+body{
+  	background-color:#FFF;
+  	margin:0px;
+  	scrollbar-base-color:#6D6049;
+	scrollbar-face-color:#6D6049;
+	scrollbar-highlight-color:#FFF;
+	/*scrollbar-dark-color:#FFF;*/
+	scrollbar-3dlight-color:#6D6049;
+	scrollbar-shadow-color:#6D6049;
+	scrollbar-track-color:#FFF;       
+	scrollbar-arrow-color:#000;
+}
+
+b{
+  font-weight:bold;
+}
+
+/* Definition of links */
+
+.big_links  {
+  text-decoration:none; color:#000; font-weight:bold; font-style:normal; font-size:11px; font-family:Tahoma,Arial,Helvetica;
+}
+.big_links:hover  {
+  color:#6D6049;
+}
+
+.footer_links  {
+  text-decoration:none; color:#FFF; font-weight:bold; font-style:normal; font-size:11px; font-family:Tahoma,Arial,Helvetica;
+}
+.footer_links:hover  {
+  color:#000;
+}
+
+
+
+.navi_links  {
+  text-decoration:none; color:#000; font-weight:bold; font-style:normal; font-size:11px; font-family:Tahoma,Arial,Helvetica;
+}
+.navi_links:hover  {
+  color:#6D6049;
+}
+
+/* For pager */
+.pager{
+  color:#FFFFFF;
+  font-family: Tahoma,Arial,Helvetica;/*Verdana, Arial, Helvetica, Sans-Serif;*/
+  font-size:9px;
+  font-style:normal;
+  font-weight:bold;
+  font-variant:normal;
+  text-decoration:none;
+}
+
+.pager:hover{
+  color:#FFFFFF;
+  text-decoration:underline;
+}
+/*End of pager*/
+
+table.global{
+  width:936px;
+  border-style:none;
+  border-width:0px;
+  border-collapse:collapse;
+}
+
+table.big_container_tbl{
+  width:700px;
+  vertical-align: top;
+  border-style:none;
+  border-width:0px;
+  font-size:11px;
+  font-weight:normal;
+  font-family:Tahoma,Arial,Helvetica;
+}
+
+td.big_container_td{
+  text-align:center;
+  font-size:11px;
+  font-weight:normal;
+  font-family:Tahoma,Arial,Helvetica;
+}
+
+table.phonebook{
+  width:700px;
+  border-style:solid;
+  border-width:3px;
+  border-color:#6D6049;
+  border-collapse:collapse;
+}
+
+table.accounttbl {
+  border-style:none;
+  border-width:0px;
+  padding:3px;
+}
+
+table.systemconfigttbl {
+  border-style:none;
+  border-width:0px;
+  padding:3px;
+}
+
+table.contacttbl {
+  border-style:none;
+  border-width:0px;
+  padding:3px;
+}
+
+table.carriertbl {
+  border-style:none;
+  border-width:0px;
+  padding:3px;
+}
+
+table.brandstbl {
+  border-style:none;
+  border-width:0px;
+  padding:3px;
+}
+
+table.bigtbl  {
+  width:700px;
+  border-style:solid;
+  border-width:3px;
+  border-color:#6D6049;
+  padding:3px;
+  border-collapse:collapse;
+}
+
+table.cabtbl  {
+  width:700px;
+  border-style:solid;
+  border-width:3px;
+border-color:#FFFFFF;
+  padding:3px;
+  border-collapse:collapse;
+}
+
+th.bigtbl_th{
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  border-bottom-color:#6D6049;
+  font-size:12px;
+  font-weight:bold;
+  font-family:Tahoma,Arial,Helvetica;
+  text-align:center;
+  padding:3px;
+}
+
+td.bigtbl_td{
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  border-bottom-color:#6D6049;
+  font-size:11px;
+  font-weight:normal;
+  font-family:Tahoma,Arial,Helvetica;
+  text-align:center;
+  padding:3px;
+}
+
+
+
+table.infotbl  {
+  width:700px;
+  border-style:none;
+  border-width:0px;
+  padding:3px;
+  border-collapse:collapse;
+}
+
+th.infotbl_th{
+  border-bottom-style:none;
+  border-bottom-width:0px;
+  font-size:12px;
+  font-weight:bold;
+  font-family:Tahoma,Arial,Helvetica;
+  text-align:center;
+  padding:3px;
+}
+
+td.infotbl_td{
+  border-style:none;
+  border-width:0px;
+  vertical-align:top;
+  font-size:11px;
+  font-weight:normal;
+  font-family:Tahoma,Arial,Helvetica;
+  text-align:center;
+  padding:3px;
+}
+
+
+/* Ende User-Info */
+
+table.smalltbl  {
+  width:300px;
+  border-style:solid;
+  border-width:3px;
+  border-color:#6D6049;
+  padding:3px;
+  border-collapse:collapse;
+}
+
+th.smalltbl_th{
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  border-bottom-color:#6D6049;
+  font-size:12px;
+  font-weight:bold;
+  font-family:Tahoma,Arial,Helvetica;
+  text-align:center;
+  padding:3px;
+}
+
+td.smalltbl_td{
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  border-bottom-color:#6D6049;
+  font-size:11px;
+  font-weight:normal;
+  font-family:Tahoma,Arial,Helvetica;
+  text-align:center;
+  padding:3px;
+}
+
+table.rates_tbl  {
+  width:300px;
+  border-style:none;
+  border-width:0px;
+  padding:5px;
+  border-collapse:collapse;
+}
+
+table.callisttbl  {
+  width:700px;
+  border-style:solid;
+  border-width:3px;
+  border-color:#6D6049;
+  padding:3px;
+  border-collapse:collapse;
+}
+
+th.callist_th{
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  border-bottom-color:#6D6049;
+  font-size:12px;
+  font-weight:bold;
+  font-family:Tahoma,Arial,Helvetica;
+  text-align:center;
+  padding:3px;
+}
+
+td.callist_td{
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  border-bottom-color:#6D6049;
+  font-size:11px;
+  font-weight:normal;
+  font-family:Tahoma,Arial,Helvetica;
+  text-align:center;
+  padding:3px;
+}
+
+table.brandlisttbl  {
+  width:700px;
+  border-style:solid;
+  border-width:3px;
+  border-color:#6D6049;
+  padding:3px;
+  border-collapse:collapse;
+}
+
+th.brandlist_th{
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  border-bottom-color:#6D6049;
+  font-size:12px;
+  font-weight:bold;
+  font-family:Tahoma,Arial,Helvetica;
+  text-align:center;
+  padding:3px;
+}
+
+td.brandlist_td{
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  border-bottom-color:#6D6049;
+  font-size:11px;
+  font-weight:normal;
+  font-family:Tahoma,Arial,Helvetica;
+  text-align:center;
+  padding:3px;
+}
+
+/* printForm output */
+th.txt{
+  padding-right:5px;
+  padding-top:5px;
+  padding-bottom:5px;
+  text-align:right; !important;
+  font-size:11px;
+  font-weight:bold;
+  font-family:Tahoma,Arial,Helvetica;
+}
+
+/*th{
+  font-size:11px;
+  font-weight:bold;
+  font-family:Tahoma,Arial,Helvetica;
+}*/
+
+td.phonebook_numbers_td{
+  font-size:11px;
+  font-weight:normal;
+  font-family:Tahoma,Arial,Helvetica;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  border-bottom-color:#6D6049;
+  border-top-style:solid;
+  border-top-width:1px;
+  border-top-color:#6D6049;
+  padding:5px;
+  text-align:center;
+}
+
+td.phonebook_td{
+  font-size:11px;
+  font-weight:normal;
+  font-family:Tahoma,Arial,Helvetica;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  border-bottom-color:#6D6049;
+  border-top-style:solid;
+  border-top-width:1px;
+  border-top-color:#6D6049;
+  padding:5px;
+  text-align:justify;
+  line-height:20px;
+}
+
+table.sipdata_tbl{
+  width:400px;
+  border-style:dashed;
+  border-width:1px;
+  border-color:#900;
+  background-color:#FDFEE4;
+}
+
+table.navigation_tbl{
+  width:190px;
+  border-style:none;
+  border-width:0px;
+}
+
+table.login_tbl{
+  width:180px;
+  border-style:none;
+  border-width:0px;
+  padding:0px;
+  margin:0px;
+}
+
+td.login_td{
+  font-size:11px;
+  font-weight:bold;
+  font-family:Tahoma,Arial,Helvetica;
+  text-decoration:none;
+  text-align:center;
+  padding-bottom:5px;
+}
+
+table.content_inner_tbl{
+  width:725px;
+  height:470px;
+  border-style:none;
+  border-width:0px;
+  font-size:11px;
+  font-weight:normal;
+  font-family:Tahoma,Arial,Helvetica;
+}
+
+table.little_tbl{
+  width:300px;
+  border-style:solid;
+  border-width:3px;
+  border-color:#6D6049;
+  border-collapse:collapse;
+}
+
+table.head_foot {
+  width:735px; ! important;
+  height:20px;
+}
+
+th.headline{
+  font-size:18px;
+  font-weight:bolder;
+  font-family:Tahoma,Arial,Helvetica;
+  text-decoration:underline;
+}
+
+th.small_headline{
+  font-size:12px;
+  font-weight:bolder;
+  font-family:Tahoma,Arial,Helvetica;
+  text-decoration:none;
+}
+
+td.border_tds{
+  font-size:11px;
+  font-weight:normal;
+  font-family:Tahoma,Arial,Helvetica;
+  text-decoration:none;
+  border-color:#6D6049;
+  border-style:solid;
+  border-width:1px;
+  padding:3px;
+}
+
+td.cab_tds{
+  font-size:13px;
+  font-weight:normal;
+  font-family:Tahoma,Arial,Helvetica;
+  text-decoration:none;
+  border-color:#6D6049;
+  border-style:solid;
+  border-width:1px;
+  padding:3px;
+}
+
+td.infolines_td{
+  font-size:11px;
+  font-weight:normal;
+  font-family:Tahoma,Arial,Helvetica;
+  text-decoration:none;
+  text-align:center;
+}
+
+td.td1{
+  width:190px;
+  height:27px;
+}
+
+td.td2{
+  width:11px;
+  height:27px;
+}
+
+td.td3{
+  width:339px;
+  height:27px;
+}
+
+td.infolinks{
+  width:396px;
+  height:27px;
+  background-color:#FFF;
+  text-align:right;
+  padding-top:5px;
+  padding-right:5px;
+}
+
+td.td5{
+  text-align:center;
+  /*width:339px;
+  height:61px;*/
+}
+/*
+td.td6{
+  width:396px;
+  height:61px;
+}
+*/
+td.navicontainer_td{
+  width:170px;
+  /*height:468px;*/
+}
+
+p.navigation{
+  padding-left:5px;
+  padding-right:5px;
+  padding-top:0px;
+  padding-bottom:0px;
+}
+
+td.navibackground{
+  width:170px;
+  height:193px;
+  padding:5px;
+  font-size:11px;
+  font-weight:bold;
+  font-family:Tahoma,Arial,Helvetica;
+  text-align:left;
+  vertical-align:top;
+}
+
+td.nav{
+  padding:5px;
+  font-size:11px;
+  font-weight:bold;
+  font-family:Tahoma,Arial,Helvetica;
+  text-align:center;
+  vertical-align:center;
+}
+
+td.content_td{
+  width:735px;
+  /*height:406px;*/
+  height:480px; 
+  background-image:url(../../imgs/content.jpg);
+  background-repeat:no-repeat;
+  background-position:top;
+  padding-left:5px;
+  padding-right:5px;
+  vertical-align:top;
+}
+
+/* Adjust the height due to the bigger navigation bar */
+td.content_admin_td{
+  width:735px;
+  height:730px;
+  background-image:url(../../imgs/content.jpg);
+  background-repeat:no-repeat;
+  background-position:top; ! important;
+  padding-left:5px;
+  padding-right:5px;
+  vertical-align:top;
+}
+
+td.gap_lines{
+  line-height:20px;
+  font-size:11px;
+  font-family:Tahoma,Arial,Helvetica;
+  text-align:justify;
+  vertical-align:top;
+}
+
+td.header_tbl_content{
+  width:735px;
+  height:26px;
+  background-image:url();
+  background-repeat:no-repeat;
+  background-position:top;
+  font-size:11px;
+  font-weight:bolder;
+  font-family:Tahoma,Arial,Helvetica;
+  color:#FFF;
+  vertical-align:top;
+  text-align:left;
+  padding-left:5px;
+  padding-top:2px;
+}
+
+td.footer_tbl_content{
+  width:735px;
+  height:36px;
+  background-image:url();
+}
+
+td.header_tbl_navi{
+  width:190px;
+  height:26px;
+  background-image:url(../../imgs/navi_12.jpg);
+  background-repeat:no-repeat;
+  background-position:left bottom;
+  font-size:11px;
+  font-weight:bolder;
+  font-family:Tahoma,Arial,Helvetica;
+  color:#FFF;
+  vertical-align:top;
+  text-align:center;
+  padding-top:2px;
+}
+
+td.footer_tbl_navi{
+  width:190px;
+  height:40px;
+  background-image:url(../../imgs/navi_17.jpg);
+  background-repeat:no-repeat;
+  background-position:left top;
+  vertical-align:top;
+  text-align:center;
+  padding-top:2px;
+}
+
+td.kiwipic_td{
+ text-align:center;
+}
+
+td.gap{
+  padding-top:5px;
+  font-size:11px;
+  font-family:Tahoma,Arial,Helvetica;
+}
+
+li.global{
+  font-size:11px;
+  font-weight:normal;
+  font-family:Tahoma,Arial,Helvetica;
+  text-decoration:none;
+  padding-bottom:5px;
+  line-height:20px;
+  text-align:justify;
+}
+
+input{
+  background-color:#FCFEE5;
+  border-style:solid;
+  border-color:#6D6049;
+  border-width:1px;
+  font-size:11px;
+  font-weight:normal;
+  font-family:Tahoma,Arial,Helvetica;
+  text-decoration:none;
+  padding-left:2px;
+  padding-right:2px;
+}
+
+select{
+  background-color:#FCFEE5;
+  border-style:solid;
+  border-color:#6D6049;
+  border-width:1px;
+  font-size:11px;
+  font-weight:normal;
+  font-family:Tahoma,Arial,Helvetica;
+  text-decoration:none;
+  padding-left:2px;
+  padding-right:2px;
+}
+
+.centerline{
+  font-size:11px;
+  font-weight:bolder;
+  font-family:Tahoma,Arial,Helvetica;
+  text-align:center;
+}
+
+.bglightgreen{
+  background-color:#A4D2AE;
+}
+
+.headline_global{
+  font-size:16px;
+  font-weight:bolder;
+  font-family:Tahoma,Arial,Helvetica;
+  text-decoration:none;
+  text-align:center;
+  padding-bottom:5px;
+}
+
+.sub_headline_global{
+  font-size:12px;
+  font-weight:bolder;
+  font-family:Tahoma,Arial,Helvetica;
+  text-decoration:none;
+  text-align:center;
+  padding-bottom:5px;
+}
+
+.boldlightgreen{
+  font-size:12px;
+  font-weight:bolder;
+  font-family:Tahoma,Arial,Helvetica;
+  color:#44AA44;
+  text-decoration:none;
+  text-align:center;
+}
+
+.boldred{
+  font-size:12px;
+  font-weight:bolder;
+  font-family:Tahoma,Arial,Helvetica;
+  color:#900;
+  text-decoration:none;
+  text-align:center;
+}
+
+.big_red{
+  font-size:11px;
+  font-weight:bolder;
+  font-family:Tahoma,Arial,Helvetica;
+  color:#900;
+  text-decoration:none;
+}
+
+.messages{
+  font-size:12px;
+  font-weight:bolder;
+  font-family:Tahoma,Arial,Helvetica;
+  color:#900;
+  text-decoration:none;
+  text-align:center;
+  line-height:20px;
+}
+
+.bigboldred{
+  font-size:16px;
+  font-weight:bolder;
+  font-family:Tahoma,Arial,Helvetica;
+  color:#900;
+  text-decoration:none;
+  text-align:center;
+}
+
+.boldblack{
+  font-size:12px;
+  font-weight:bolder;
+  font-family:Tahoma,Arial,Helvetica;
+  color:#000;
+  text-decoration:none;
+  text-align:center;
+}
+
+.boldwhite{
+  font-size:12px;
+  font-weight:bolder;
+  font-family:Tahoma,Arial,Helvetica;
+  color:#FFF;
+  text-decoration:none;
+  text-align:center;
+}
+
+.bigboldblack{
+  font-size:16px;
+  font-weight:bolder;
+  font-family:Tahoma,Arial,Helvetica;
+  color:#000;
+  text-decoration:none;
+  text-align:center;
+}
+
+.gapright{
+  font-size:11px;
+  font-weight:bolder;
+  font-family:Tahoma,Arial,Helvetica;
+  color:#000;
+  text-decoration:none;
+  text-align:right;
+  padding:5px;
+}
+
+/* Prepaid card */
+td.facevalue {
+	width:144px;
+	height:30px;
+	background-image:url(../../imgs/prepaid/facevalue.gif);
+	font-size:18px;
+  	font-weight:bolder;
+  	font-family:Tahoma,Arial,Helvetica;
+  	color:#FFF;
+	text-align:right;
+	padding-right:15px;
+	
+}
+
+td.content {
+	width:273px;
+	height:101px;
+	background-image:url(../../imgs/prepaid/content.jpg);
+	font-size:14px;
+  	font-weight:bolder;
+  	font-family:Tahoma,Arial,Helvetica;
+  	color:#FFF;
+	
+}
+
+/* User details */
+.headline_userdetails{
+	font-size:14px;
+  	font-weight:bold;
+  	font-family:Tahoma,Arial,Helvetica;
+  	color:#000;
+	text-align:center;
+	text-decoration:underline;
+}
+
+/*SIP data */
+td.headline_phone{
+	font-size:14px;
+  	font-weight:bold;
+  	font-family:Tahoma,Arial,Helvetica;
+  	color:#000;
+	text-align:center;
+	text-decoration:underline;
+}
+
+td.status{
+	vertical-align:top;
+}
+
+td.phoneparameter{
+	width:150px;
+	height:101px;
+	font-size:11px;
+  	font-weight:normal;
+  	font-family:Tahoma,Arial,Helvetica;
+  	color:#000;
+	text-align:left;
+}
+
+/* Button */
+back_button {
+  float: left;
+  text-align: center;
+  font-size: 11px;
+  font-weight: bold;
+  border: 1px solid #92C86A;
+  width: auto;
+  /*background: url(../images/button_bg.png) repeat-x;*/
+  padding: 0px 10px;
+  line-height: 18px;
+  margin: 1px;
+  cursor: hand;
+}
+
+/* --------------- 2018 -------------- */
+
+.yo {
+border-size: 0px; border-style: none; background:#114694; color:#FFFFFF; font-weight: bold; font-size: 11px; font-family: Arial, Helvetica, sans-serif;
+cursor: hand; cursor: pointer; adding: 0px; height:25px;
+}
+
+.yoh {
+border-size: 0px; border-style: none; background:#114694; color:#CCFFFF; font-weight: bold; font-size: 11px; font-family: Arial, Helvetica, sans-serif;
+cursor: hand; cursor: pointer; adding: 0px; height:25px;
+}
+
+.butlink {
+border-size: 0px; border-style: none; background: inherit;
+text-align:left; font-weight: bold; font-size: 10px; font-family: Arial, Helvetica, sans-serif;
+cursor: hand; cursor: pointer; adding: 0px;
+}
+.butlinkh {
+border-size: 0px; border-style: none; background: inherit;
+text-align:left; font-weight: bold; font-size: 10px; font-family: Arial, Helvetica, sans-serif; color:#0000FF;
+cursor: hand; cursor: pointer; adding: 0px;
+}
+.logof {
+border-size: 0px; border-style: none; 	background: inherit;
+background-image:url(/var/www/interface/imgs/navig/stop.png);
+font-weight: bold; font-size: 17px; font-family: Arial, Helvetica, sans-serif; color:white;
+cursor: hand; cursor: pointer; adding: 0px; background-repeat:no-repeat; background-position:center;
+}
+.logofh {
+border-size: 0px; border-style: none; 	background: inherit;
+background-image:url(/var/www/interface/imgs/navig/stoph.png);
+font-weight: bold; font-size: 17px; font-family: Arial, Helvetica, sans-serif; color:white;
+cursor: hand; cursor: pointer; adding: 0px; background-repeat:no-repeat; background-position:center;
+}
+.shop {
+background: inherit; border:none;
+background-image:url(../imgs/navig/basket.png);
+font-weight: bold; font-size: 30px; font-family: Arial, Helvetica, sans-serif; color:white;
+cursor: hand; cursor: pointer; adding: 0px; background-repeat:no-repeat; background-position:top;
+}
+.shoph {
+background: inherit; border:none;
+background-image:url(../imgs/navig/basketh.png);
+font-weight: bold; font-size: 30px; font-family: Arial, Helvetica, sans-serif; color:white;
+cursor: hand; cursor: pointer; adding: 0px; background-repeat:no-repeat; background-position:top;
+}
+.phone {
+background: inherit; border:none;
+background-image:url(../imgs/navig/phone.png);
+font-weight: bold; font-size: 30px; font-family: Arial, Helvetica, sans-serif; color:white;
+cursor: hand; cursor: pointer; adding: 0px; background-repeat:no-repeat; background-position:top;
+}
+.phoneh {
+background: inherit; border:none;
+background-image:url(../imgs/navig/phoneh.png);
+font-weight: bold; font-size: 30px; font-family: Arial, Helvetica, sans-serif; color:white;
+cursor: hand; cursor: pointer; adding: 0px; background-repeat:no-repeat; background-position:top;
+}
+.cyber {
+background: inherit; border:none;
+background-image:url(../imgs/navig/cyber.png);
+font-weight: bold; font-size: 30px; font-family: Arial, Helvetica, sans-serif; color:white;
+cursor: hand; cursor: pointer; adding: 0px; background-repeat:no-repeat; background-position:top;
+}
+.cyberh {
+background: inherit; border:none;
+background-image:url(../imgs/navig/cyberh.png);
+font-weight: bold; font-size: 30px; font-family: Arial, Helvetica, sans-serif; color:white;
+cursor: hand; cursor: pointer; adding: 0px; background-repeat:no-repeat; background-position:top;
+}
+.journal {
+background: inherit; border:none;
+background-image:url(../imgs/navig/journal.png);
+font-weight: bold; font-size: 30px; font-family: Arial, Helvetica, sans-serif; color:white;
+cursor: hand; cursor: pointer; adding: 0px; background-repeat:no-repeat; background-position:top;
+}
+.journalh {
+background: inherit; border:none;
+background-image:url(../imgs/navig/journalh.png);
+font-weight: bold; font-size: 30px; font-family: Arial, Helvetica, sans-serif; color:white;
+cursor: hand; cursor: pointer; adding: 0px; background-repeat:no-repeat; background-position:top;
+}
+.rate {
+background: inherit; border:none;
+background-image:url(../imgs/navig/rate.png);
+font-weight: bold; font-size: 30px; font-family: Arial, Helvetica, sans-serif; color:white;
+cursor: hand; cursor: pointer; adding: 0px; background-repeat:no-repeat; background-position:top;
+}
+.rateh {
+background: inherit; border:none;
+background-image:url(../imgs/navig/rateh.png);
+font-weight: bold; font-size: 30px; font-family: Arial, Helvetica, sans-serif; color:white;
+cursor: hand; cursor: pointer; adding: 0px; background-repeat:no-repeat; background-position:top;
+}
+.erreurs {
+background: inherit; border:none;
+background-image:url(../imgs/navig/erreurs.png);
+font-weight: bold; font-size: 30px; font-family: Arial, Helvetica, sans-serif; color:white;
+cursor: hand; cursor: pointer; adding: 0px; background-repeat:no-repeat; background-position:top;
+}
+.erreursh {
+background: inherit; border:none;
+background-image:url(../imgs/navig/erreursh.png);
+font-weight: bold; font-size: 30px; font-family: Arial, Helvetica, sans-serif; color:white;
+cursor: hand; cursor: pointer; adding: 0px; background-repeat:no-repeat; background-position:top;
+}
+.account {
+background: inherit; border:none;
+background-image:url(../imgs/navig/account.png);
+font-weight: bold; font-size: 30px; font-family: Arial, Helvetica, sans-serif; color:white;
+cursor: hand; cursor: pointer; adding: 0px; background-repeat:no-repeat; background-position:top;
+}
+.accounth {
+background: inherit; border:none;
+background-image:url(../imgs/navig/accounth.png);
+font-weight: bold; font-size: 30px; font-family: Arial, Helvetica, sans-serif; color:white;
+cursor: hand; cursor: pointer; adding: 0px; background-repeat:no-repeat; background-position:top;
+}
+
+.ds_box {
+	background-color: #FFF;
+	border: 1px solid #000;
+	position: absolute;
+	z-index: 32767;
+}
+
+.ds_tbl {
+	background-color: #FFF;
+}
+
+.ds_head {
+	background-color: #333;
+	color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+.ds_subhead {
+	background-color: #CCC;
+	color: #000;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 32px;
+}
+
+.ds_cell {
+	background-color: #EEE;
+	color: #000;
+	font-size: 13px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.ds_cell:hover {
+	background-color: #F3F3F3;
+}
+
+.butlink1 {border-size: 0px; border-style: none; background: inherit;
+text-align:left; font-weight: bold; font-size: 12px; font-family: Arial, Helvetica, sans-serif;
+cursor: hand; cursor: pointer; adding: 0px;
+}

@@ -1,0 +1,2163 @@
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 4800
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 6 -- cout de la route = 3240
+ Le cout operateur = 400
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 30.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 32.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 33.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 68 -- cout de la route = 3240
+ Le cout operateur = 3700
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 25.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 25.
+Cas numero 1 sans pallier = 1
+ duree = 134 -- cout de la route = 3240
+ Le cout operateur = 7300
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 71 -- cout de la route = 3240
+ Le cout operateur = 3900
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 12 -- cout de la route = 3240
+ Le cout operateur = 700
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 12 -- cout de la route = 3240
+ Le cout operateur = 700
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3240
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3240
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3600
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3600
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3600
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 29 -- cout de la route = 3600
+ Le cout operateur = 1800
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 22 -- cout de la route = 3700
+ Le cout operateur = 1400
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 30.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 32.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 33.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 30.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 32.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 33.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 30.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 32.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 33.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 30.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 32.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 33.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 30.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 32.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 33.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 30.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 32.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 33.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 22 -- cout de la route = 3500
+ Le cout operateur = 1300
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3500
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 72 -- cout de la route = 3400
+ Le cout operateur = 4100
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 4800
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 38 -- cout de la route = 4800
+ Le cout operateur = 3100
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 30.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 32.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 33.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 30.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 32.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 33.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3600
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3600
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 30 -- cout de la route = 3700
+ Le cout operateur = 1900
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3600
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3600
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 17 -- cout de la route = 3600
+ Le cout operateur = 1100
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 25.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 4800
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 4800
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3600
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 21 -- cout de la route = 3600
+ Le cout operateur = 1300
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 4 -- cout de la route = 4800
+ Le cout operateur = 400
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3700
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3600
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3700
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 7 -- cout de la route = 3600
+ Le cout operateur = 500
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3600
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 7 -- cout de la route = 3700
+ Le cout operateur = 500
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3700
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3600
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3600
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3600
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3600
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3700
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3700
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 18 -- cout de la route = 4800
+ Le cout operateur = 1500
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 15 -- cout de la route = 4800
+ Le cout operateur = 1200
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 720
+ Le cout operateur = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 720
+ Le cout operateur = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 4320
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3600
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3600
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3700
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 1 -- cout de la route = 720
+ Le cout operateur = 100
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 16 -- cout de la route = 3700
+ Le cout operateur = 1000
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 13 -- cout de la route = 3700
+ Le cout operateur = 900
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3600
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 1 -- cout de la route = 360
+ Le cout operateur = 100
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 1 -- cout de la route = 360
+ Le cout operateur = 100
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 1 -- cout de la route = 360
+ Le cout operateur = 100
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 1 -- cout de la route = 360
+ Le cout operateur = 100
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 360
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 960
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 63 -- cout de la route = 960
+ Le cout operateur = 1100
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 5 -- cout de la route = 960
+ Le cout operateur = 100
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 5 -- cout de la route = 960
+ Le cout operateur = 100
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 25.
+Cas numero 1 sans pallier = 1
+ duree = 21 -- cout de la route = 960
+ Le cout operateur = 400
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 960
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 960
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 2 -- cout de la route = 3400
+ Le cout operateur = 200
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 360
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 360
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 13 -- cout de la route = 3400
+ Le cout operateur = 800
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 1 -- cout de la route = 720
+ Le cout operateur = 100
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 720
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 2900
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3240
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 6 -- cout de la route = 3240
+ Le cout operateur = 400
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3500
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3500
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3500
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3500
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3500
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3500
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 960
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 18 -- cout de la route = 960
+ Le cout operateur = 300
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 960
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 14 -- cout de la route = 960
+ Le cout operateur = 300
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 18 -- cout de la route = 3400
+ Le cout operateur = 1100
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3700
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3700
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3600
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3700
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 15 -- cout de la route = 3480
+ Le cout operateur = 900
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3700
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 4320
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 4320
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3700
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 4800
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 4800
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 68 -- cout de la route = 960
+ Le cout operateur = 1100
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3700
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 4 -- cout de la route = 3700
+ Le cout operateur = 300
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3700
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 720
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 720
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 720
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 4320
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 4320
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 4320
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3600
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 11 -- cout de la route = 3600
+ Le cout operateur = 700
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 10 -- cout de la route = 4800
+ Le cout operateur = 800
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 14 -- cout de la route = 3400
+ Le cout operateur = 800
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3000
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 32 -- cout de la route = 3500
+ Le cout operateur = 1900
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3500
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3500
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3500
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 48 -- cout de la route = 3500
+ Le cout operateur = 2800
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3700
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 26 -- cout de la route = 3700
+ Le cout operateur = 1700
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3700
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3600
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 960
+ Le cout operateur = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 7 -- cout de la route = 3700
+ Le cout operateur = 500
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 960
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 960
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 960
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 960
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 960
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 960
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 4 -- cout de la route = 960
+ Le cout operateur = 100
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3700
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3700
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 34 -- cout de la route = 3400
+ Le cout operateur = 2000
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 6 -- cout de la route = 3400
+ Le cout operateur = 400
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 10 -- cout de la route = 3400
+ Le cout operateur = 600
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 10 -- cout de la route = 3400
+ Le cout operateur = 600
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 12 -- cout de la route = 3400
+ Le cout operateur = 700
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3700
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 720
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 360
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 4320
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 27 -- cout de la route = 3400
+ Le cout operateur = 1600
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 9 -- cout de la route = 3400
+ Le cout operateur = 600
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 9 -- cout de la route = 3400
+ Le cout operateur = 600
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 25.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 15 -- cout de la route = 3400
+ Le cout operateur = 900
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 13 -- cout de la route = 3400
+ Le cout operateur = 800
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 360
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 9 -- cout de la route = 3400
+ Le cout operateur = 600
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3700
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 4800
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 4800
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 4800
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 20 -- cout de la route = 360
+ Le cout operateur = 200
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 4800
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 4800
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 8 -- cout de la route = 3400
+ Le cout operateur = 500
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 12 -- cout de la route = 3400
+ Le cout operateur = 700
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3700
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 18 -- cout de la route = 3400
+ Le cout operateur = 1100
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 3 -- cout de la route = 3400
+ Le cout operateur = 200
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 9 -- cout de la route = 3400
+ Le cout operateur = 600
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3700
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3700
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3700
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3600
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3700
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 45 -- cout de la route = 3400
+ Le cout operateur = 2600
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 960
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 11 -- cout de la route = 3400
+ Le cout operateur = 700
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 11 -- cout de la route = 3400
+ Le cout operateur = 700
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 13 -- cout de la route = 3400
+ Le cout operateur = 800
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 3 -- cout de la route = 3400
+ Le cout operateur = 200
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3700
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3700
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 6 -- cout de la route = 3480
+ Le cout operateur = 400
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 23 -- cout de la route = 3480
+ Le cout operateur = 1400
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 6 -- cout de la route = 360
+ Le cout operateur = 100
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3700
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 960
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 6 -- cout de la route = 3400
+ Le cout operateur = 400
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 16 -- cout de la route = 3400
+ Le cout operateur = 1000
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 9 -- cout de la route = 3400
+ Le cout operateur = 600
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 9 -- cout de la route = 3400
+ Le cout operateur = 600
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 21 -- cout de la route = 3400
+ Le cout operateur = 1200
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of code point 0xFFFFFFFFFFFFFFFF is deprecated; the permissible max is 0x7FFFFFFFFFFFFFFF at /var/lib/asterisk/agi-bin/callshop.agi line 192, <STDIN> line 28.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 7 -- cout de la route = 3400
+ Le cout operateur = 400
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 4800
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 8 -- cout de la route = 3400
+ Le cout operateur = 500
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 6 -- cout de la route = 3400
+ Le cout operateur = 400
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 11 -- cout de la route = 4800
+ Le cout operateur = 900
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 62 -- cout de la route = 3400
+ Le cout operateur = 3600
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 8 -- cout de la route = 3400
+ Le cout operateur = 500
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 10 -- cout de la route = 3400
+ Le cout operateur = 600
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 6 -- cout de la route = 3400
+ Le cout operateur = 400
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 5 -- cout de la route = 3400
+ Le cout operateur = 300
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 10 -- cout de la route = 3400
+ Le cout operateur = 600
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 13 -- cout de la route = 4800
+ Le cout operateur = 1100
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 4800
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 16 -- cout de la route = 3400
+ Le cout operateur = 1000
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 6 -- cout de la route = 4800
+ Le cout operateur = 500
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 4800
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 4800
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 4800
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 7 -- cout de la route = 4800
+ Le cout operateur = 600
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 4800
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 5 -- cout de la route = 3400
+ Le cout operateur = 300
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 16 -- cout de la route = 3400
+ Le cout operateur = 1000
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 12 -- cout de la route = 3400
+ Le cout operateur = 700
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3700
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 4320
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 27.
+Use of uninitialized value $offset in concatenation (.) or string at /usr/local/share/perl/5.24.1/Asterisk/AGI.pm line 1055, <STDIN> line 29.
+Cas numero 2 avec pallier minute = 
+ duree =  -- cout de la route = 
+ Le cout operateur = 
+DBD::mysql::db do failed: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 at /var/lib/asterisk/agi-bin/callshop.agi line 73, <STDIN> line 30.
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3700
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3700
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 7 -- cout de la route = 3700
+ Le cout operateur = 500
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 1 -- cout de la route = 3700
+ Le cout operateur = 100
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 11 -- cout de la route = 3400
+ Le cout operateur = 700
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 8 -- cout de la route = 3400
+ Le cout operateur = 500
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 14 -- cout de la route = 3400
+ Le cout operateur = 800
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 1 -- cout de la route = 3700
+ Le cout operateur = 100
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree =  -- cout de la route = 3400
+ Le cout operateur = 0
+pallier = 1 cout-de-con = 0 secondes-inc = 0
+Cas numero 1 sans pallier = 1
+ duree = 5 -- cout de la route = 3400
+ Le cout operateur = 300

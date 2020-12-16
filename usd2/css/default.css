@@ -1,0 +1,217 @@
+BODY {
+
+background: #c3cbd3;
+/* background: #ebf4fe; */
+margin: 0;
+margin-top: 0;
+margin-left: 0;
+margin-right: 0;
+font-family: Verdana,Arial,Helvetica;
+font-size: 10pt;
+}
+
+.Arrow {
+        float: right;
+        vertical-align: middle;
+}
+
+/* 
+A,BODY:link,BODY:visited {
+        text-decoration: none;
+}
+*/ 
+
+
+
+
+/*
+H1,H2,H3,H4 { font-family: Verdana,Arial,Helvetica;
+           text-transform: lowercase;}
+H2 { font-size: medium; }
+*/
+
+
+A:link, A:active, A:visited {
+        text-decoration: none;
+}
+
+
+
+TD {
+        font-family: Verdana,Arial,Helvetica;
+        font-size: 10pt;
+}
+
+.Dark {
+        background-color: #666666;
+}
+
+.MainMenuActive {
+        font-weight: bold;
+        font-family: Verdana,Arial,Helvetica;
+        font-size: 10pt;
+        color: #ffffff;
+}
+
+.MainMenu {
+        font-weight: bold;
+        font-family: Verdana,Arial,Helvetica;
+        font-size: 10pt;
+        color: #adbfec;
+}
+
+.MainMenuBar {
+        font-weight: bold;
+        font-family: Verdana,Arial,Helvetica;
+        font-size: 10pt;
+        color: #ebf4fe;
+	text-decoration: none;
+}
+
+
+P, li {
+        font-family: Verdana,Arial,Helvetica;
+        font-size: 10pt;
+        color: #2f2f2f;
+}
+
+.Small {
+        font-family: Verdana,Arial,Helvetica;
+        font-size: 8pt;
+        color: #000000;
+}
+
+.Quote {
+        font-family: Verdana,Arial,Helvetica;
+        font-size: 10pt;
+        font-style: italic;
+        color: #000000;
+}
+
+.Header {
+        font-size: 18pt;
+        color: #000000;
+        font-weight: bold;
+
+}
+
+.MedHeader {
+        font-size: 14pt;
+        color: #000000;
+        font-weight: bold;
+
+}
+.SmallHeader {
+        font-size: 13pt;
+        color: #000000;
+        font-weight: bold;
+
+}
+
+.Menu {
+        font-size: 16pt;
+        color: #000000;
+        font-weight: bold;
+}
+
+.MenuItem {
+	font-family: verdana, arial, helvetica;
+        font-size: 10pt;
+	color: #705c4e;
+	font-weight: bold;
+}
+
+.PC {
+	border-color: #000000;
+	border-width: thin;
+	border-style: solid;
+}
+
+.Client {
+	border-color: #000000;
+	border-width: thin;
+	border-style: dotted;
+}
+
+.PCName {
+        font-weight: bold;
+        font-family: Verdana,Arial,Helvetica;
+        font-size: 10pt;
+        color: #000000;
+}
+
+
+
+.MenuLink {
+	font-family: verdana, arial, helvetica;
+        font-size: 10pt;
+        color: #705c4e;
+        font-weight: bold;
+}
+
+.MenuLink:visited {
+        text-decoration: none;
+}
+
+
+.MainNav {
+        color: #ff9900;
+        font-weight: bold;
+        text-decoration: none;
+}
+
+A.MainNav:hover {
+        color: #ffffff;
+        text-decoration: none;
+}
+
+.SmallNav {
+        color: #ff9900;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 8pt;
+}
+
+A.SmallNav:hover {
+        color: #ff0000;
+        text-decoration: none;
+}
+
+A:hover {
+        color: #bb0000;
+}
+
+
+.Link {
+        text-decoration: none;
+}
+
+A.Link:hover {
+        color: #bb0000;
+        text-decoration: none;
+}
+
+
+
+.Bar {
+        color: #999999;
+        font-weight: bold;
+}
+
+.SmallBar {
+        color: #999999;
+        font-weight: bold;
+        font-size: 8pt;
+}
+
+.Code {
+        font-family: monospace;
+}
+
+textarea, input, select {
+	font-family: verdana, arial, helvetica;
+        background-color: #d0dfea;
+	font-size: 12;
+}
+
+

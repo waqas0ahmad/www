@@ -1,0 +1,15 @@
+dbhost = localhost
+maintname = YES
+maintcdr = YES
+dbpass = 123bailamariA
+emailadd = 123bailamariA
+mailprog = mailx
+cardlength = 4
+email = NO
+startingdigit = 0
+dbuser = 123bailamariA
+pinstatus = NO
+friendsdb = YES
+pinlength = 4
+maintverbose = YES
+

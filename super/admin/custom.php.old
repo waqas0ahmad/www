@@ -1,0 +1,440 @@
+<?
+// Change 09-11-2012 comdif telecom
+require('header.php');
+
+////the form
+echo'<form action="'.$_SERVER['PHP_SELF'].'" method="get"><p>'.$Nom.'<br />
+	<input type="text" name="name"/>
+	<br />'.$Prenom.'<br /><input type="text" name="surname"/>
+	<br />'.$Adresse.'<br /><input type="text" name="address"/>
+	<br /><input type="hidden" name="vat" value="1">';
+echo''.$Twen.'<br />';
+	////search and select free booth pool
+$query = "SELECT * FROM cabpool ORDER BY firstcab";
+$result = mysql_query($query);
+echo "<select name=\"starcabine\">";
+while($select = mysql_fetch_row($result))
+	{
+	echo "<option value=\"".$select[0]."\">".$select[0]."</option>";
+	}
+echo'</select>';
+	////generate a random login and password if needed
+echo'<br />'.$Utilisateur.'<br /><input type="text" name="user" value="'.randlet().'"/>
+	<br />PASSWORD<br /><input type="text" name="password" value="'.randlet().'-'.randnum().'"/></p>
+	<p><input type="submit" name="OK" value="VALIDATION"/></p></form><p>';
+	////end form
+
+	////if get data
+if (isset($_GET['user']) && isset($_GET['password']) && isset($_GET['name']) && isset($_GET['starcabine']))
+	{
+	$name = $_GET['name']; $surname = $_GET['surname']; $address = $_GET['address']; $user = $_GET['user']; $login = $_GET['user']; $password = $_GET['password'];
+	$starcabine = $_GET['starcabine']; $vat = $_GET['vat'];
+	////check if user already exist
+	$lolo= mysql_query("select * from custom where user='$user'");
+	$lola= mysql_fetch_row($lolo);
+	if ($lola[0] !=''){echo 'ALERT USER '.$lola[5].' ALREADY EXIST !'; exit;}
+	###################### double check if this dir exist#############################
+	$REP = "/home/www/".$login."";
+	if(is_dir($REP))
+		{
+		echo 'ALERT THIS USER '.$lola[5].' IS RESERVED BY SYSTEM !';
+		exit;
+		}
+	////create user in admin database
+	$endcabine = $starcabine + 19; $cabdialplan = floor($starcabine / 10); $cabdialplan2 = floor($endcabine / 10);
+	mysql_query("INSERT INTO custom (name , surname , address , user , login , password , starcabine, soldeht, vat, soldettc)  VALUE 
+	('$name' , '$surname' , '$address' , '$user' , '$login' , '$password' , '$starcabine', '0' , '$vat', '0' )");
+	////remove this pool from database
+	mysql_query("DELETE FROM cabpool WHERE firstcab = '$starcabine'");
+
+	////create user directory
+	shell_exec("echo |cp -R /home/www/".$admindir."/admin/userdir /home/www/".$login."");
+
+	////write the user conf file
+	$confile = "/home/www/".$user."/inc/php/constants.inc.php";
+	$fhd = fopen($confile, 'a+');
+	$data = "\n";
+	fwrite($fhd, $data);
+	$data = "define (\"ASTCC\", \"astcc_".$user."\");\n";
+	fwrite($fhd, $data);
+	$data = "\$starcabine = ".(($starcabine)-1).";\n";
+	fwrite($fhd, $data);
+	$data = "\$startcabine = ".(($starcabine)-1).";\n";
+	fwrite($fhd, $data);
+	$data = "\$endcabine = ".$endcabine.";\n";
+	fwrite($fhd, $data);
+	$data = "\$context = \"sippool_".$user."\";\n";
+	fwrite($fhd, $data);
+	$data = "\$tva = \"".$vat."\";\n";
+	fwrite($fhd, $data);
+	$data = "\$bdd = \"astcc_".$user."\";\n";
+	fwrite($fhd, $data);
+	$data = "?>\n";
+	fwrite($fhd, $data);
+	fclose($fhd);
+
+	////create astcc-customer database
+	$newdb = "astcc_".$user."";
+	mysql_query("CREATE DATABASE ".$newdb."");
+	system('mysql -u'.$loginconf.' -p'.$passwordconf.' -h localhost -D'.$newdb.'  < /home/www/'.$admindir.'/admin/astcc-ht.sql');
+
+	////create customer extension conf
+	$extconf = "/home/www/ext-register/sippoll_".$user."";
+	$exten = fopen($extconf, 'w+');
+	$data = "[sippool_".$user."]\n";
+	fwrite($exten, $data);
+	$data = "switch => Realtime/@sippool_".$user."\n";
+	fwrite($exten, $data);
+	$data = "include => parkedcalls\n";
+	fwrite($exten, $data);
+	$data = "\n";
+	fwrite($exten, $data);
+	$data = "exten => _0ZX.,1,MYSQL(Connect connid ".$hostconf." ".$loginconf." ".$passwordconf." ".$dbadminconf.")\n";
+	fwrite($exten, $data);
+	$data = "exten => _0ZX.,2,MYSQL(Query resultid \${connid} SELECT\ soldettc\ FROM\ custom\ where\ user=\'".$user."\' )\n";
+	fwrite($exten, $data);
+	$data = "exten => _0ZX.,3,MYSQL(Fetch foundRow \${resultid} soldettc )\n";
+	fwrite($exten, $data);
+	$data = "exten => _0ZX.,4,MYSQL(Clear \${resultid})\n";
+	fwrite($exten, $data);
+	$data = "exten => _0ZX.,5,MYSQL(Disconnect \${connid})\n";
+	fwrite($exten, $data);
+	$data = "exten => _0ZX.,6,GotoIf($[\"\${soldettc}\" > \"0\"]?7:9)\n";
+	fwrite($exten, $data);
+	$data = "exten => _0ZX.,7,DeadAGI(astcc_".$user.".agi,\${CDR(accountcode)},33\${EXTEN:1},4)\n";
+	fwrite($exten, $data);
+	$data = "exten => _0ZX.,8,Hangup()\n";
+	fwrite($exten, $data);
+	$data = "exten => _0ZX.,9,Playback(not-enough-credit)\n";
+	fwrite($exten, $data);
+	$data = "exten => _0ZX.,10,Hangup()\n";
+	fwrite($exten, $data);
+	$data = "\n";
+	fwrite($exten, $data);
+	$data = "exten => _X.,1,MYSQL(Connect connid ".$hostconf." ".$loginconf." ".$passwordconf." ".$dbadminconf.")\n";
+	fwrite($exten, $data);
+	$data = "exten => _X.,2,MYSQL(Query resultid \${connid} SELECT\ soldettc\ FROM\ custom\ where\ user=\'".$user."\' )\n";
+	fwrite($exten, $data);
+	$data = "exten => _X.,3,MYSQL(Fetch foundRow \${resultid} soldettc )\n";
+	fwrite($exten, $data);
+	$data = "exten => _X.,4,MYSQL(Clear \${resultid})\n";
+	fwrite($exten, $data);
+	$data = "exten => _X.,5,MYSQL(Disconnect \${connid})\n";
+	fwrite($exten, $data);
+	$data = "exten => _X.,6,GotoIf($[\"\${soldettc}\" > \"0\"]?7:9)\n";
+	fwrite($exten, $data);
+	$data = "exten => _X.,7,DeadAGI(astcc_".$user.".agi,\${CDR(accountcode)},\${EXTEN},4)\n";
+	fwrite($exten, $data);
+	$data = "exten => _X.,8,Hangup()\n";
+	fwrite($exten, $data);
+	$data = "exten => _X.,9,Playback(not-enough-credit)\n";
+	fwrite($exten, $data);
+	$data = "exten => _X.,10,Hangup()\n";
+	fwrite($exten, $data);
+	$data = "\n";
+	fwrite($exten, $data);
+	$data = "exten => _00Z.,1,MYSQL(Connect connid ".$hostconf." ".$loginconf." ".$passwordconf." ".$dbadminconf.")\n";
+	fwrite($exten, $data);
+	$data = "exten => _00Z.,2,MYSQL(Query resultid \${connid} SELECT\ soldettc\ FROM\ custom\ where\ user=\'".$user."\' )\n";
+	fwrite($exten, $data);
+	$data = "exten => _00Z.,3,MYSQL(Fetch foundRow \${resultid} soldettc )\n";
+	fwrite($exten, $data);
+	$data = "exten => _00Z.,4,MYSQL(Clear \${resultid})\n";
+	fwrite($exten, $data);
+	$data = "exten => _00Z.,5,MYSQL(Disconnect \${connid})\n";
+	fwrite($exten, $data);
+	$data = "exten => _00Z.,6,GotoIf($[\"\${soldettc}\" > \"0\"]?7:9)\n";
+	fwrite($exten, $data);
+	$data = "exten => _00Z.,7,DeadAGI(astcc_".$user.".agi,\${CDR(accountcode)},\${EXTEN:2},4)\n";
+	fwrite($exten, $data);
+	$data = "exten => _00Z.,8,Hangup()\n";
+	fwrite($exten, $data);
+	$data = "exten => _00Z.,9,Playback(not-enough-credit)\n";
+	fwrite($exten, $data);
+	$data = "exten => _00Z.,10,Hangup()\n";
+	fwrite($exten, $data);
+	$data = "\n";
+	fwrite($exten, $data);
+
+	$data = "exten => _10xx.,1,MYSQL(Connect connid ".$hostconf." ".$loginconf." ".$passwordconf." ".$dbadminconf.")\n";
+	fwrite($exten, $data);
+	$data = "exten => _10xx.,2,MYSQL(Query resultid \${connid} SELECT\ soldettc\ FROM\ custom\ where\ user=\'".$user."\' )\n";
+	fwrite($exten, $data);
+	$data = "exten => _10xx,3,MYSQL(Fetch foundRow \${resultid} soldettc )\n";
+	fwrite($exten, $data);
+	$data = "exten => _10xx,4,MYSQL(Clear \${resultid})\n";
+	fwrite($exten, $data);
+	$data = "exten => _10xx,5,MYSQL(Disconnect \${connid})\n";
+	fwrite($exten, $data);
+	$data = "exten => _10xx,6,GotoIf($[\"\${soldettc}\" > \"0\"]?7:9)\n";
+	fwrite($exten, $data);
+	$data = "exten => _10xx,7,DeadAGI(astcc_".$user.".agi,\${CDR(accountcode)},33\${EXTEN},4)\n";
+	fwrite($exten, $data);
+	$data = "exten => _10xx,8,Hangup()\n";
+	fwrite($exten, $data);
+	$data = "exten => _10xx,9,Playback(not-enough-credit)\n";
+	fwrite($exten, $data);
+	$data = "exten => _10xx,10,Hangup()\n";
+	fwrite($exten, $data);
+	$data = "\n";
+	fwrite($exten, $data);
+	$data = "exten => _3xxx.,1,MYSQL(Connect connid ".$hostconf." ".$loginconf." ".$passwordconf." ".$dbadminconf.")\n";
+	fwrite($exten, $data);
+	$data = "exten => _3xxx.,2,MYSQL(Query resultid \${connid} SELECT\ soldettc\ FROM\ custom\ where\ user=\'".$user."\' )\n";
+	fwrite($exten, $data);
+	$data = "exten => _3xxx,3,MYSQL(Fetch foundRow \${resultid} soldettc )\n";
+	fwrite($exten, $data);
+	$data = "exten => _3xxx,4,MYSQL(Clear \${resultid})\n";
+	fwrite($exten, $data);
+	$data = "exten => _3xxx,5,MYSQL(Disconnect \${connid})\n";
+	fwrite($exten, $data);
+	$data = "exten => _3xxx,6,GotoIf($[\"\${soldettc}\" > \"0\"]?7:9)\n";
+	fwrite($exten, $data);
+	$data = "exten => _3xxx,7,DeadAGI(astcc_".$user.".agi,\${CDR(accountcode)},33\${EXTEN},4)\n";
+	fwrite($exten, $data);
+	$data = "exten => _3xxx,8,Hangup()\n";
+	fwrite($exten, $data);
+	$data = "exten => _3xxx,9,Playback(not-enough-credit)\n";
+	fwrite($exten, $data);
+	$data = "exten => _3xxx,10,Hangup()\n";
+	fwrite($exten, $data);
+	$data = "\n";
+	fwrite($exten, $data);
+	$data = "exten => h,1,Hangup()\n";
+	fwrite($exten, $data);
+	$data = "exten => _".$cabdialplan.".,1,Dial(SIP/\${EXTEN})\n";
+	fwrite($exten, $data);
+	$data = "exten => _".$cabdialplan.".,2,Hangup()\n";
+	fwrite($exten, $data);
+	
+	$data = "exten => _".$cabdialplan2.".,1,Dial(SIP/\${EXTEN})\n";
+	fwrite($exten, $data);
+	$data = "exten => _".$cabdialplan2.".,2,Hangup()\n";
+	fwrite($exten, $data);
+	
+	$data = "exten => t,1,Hangup()\n";
+	fwrite($exten, $data);
+	$data = "exten => i,1,Congestion()\n";
+	fwrite($exten, $data);
+	fclose($exten);
+
+	////Create user log file
+	shell_exec("echo |cp -p /home/www/".$admindir."/admin/userdir/log/log /home/www/".$user."/log/astcc_".$user.".txt");
+
+////Create custom AGI script
+shell_exec("echo |cp -p /home/www/".$admindir."/admin/astcc /var/lib/asterisk/agi-bin/astcc_".$user.".agi");
+$agi = "/var/lib/asterisk/agi-bin/astcc_".$user.".agi";
+$agibin = fopen($agi, 'r+');
+$data = "#!/usr/bin/perl\n";
+fwrite($agibin, $data);
+$data = "#\n";
+fwrite($agibin, $data);
+$data = "my \$logfile =\"/home/www/".$user."/log/astcc_".$user.".txt\";\n";
+fwrite($agibin, $data);
+$data = "open STDERR, \">>\$logfile\";\n";
+fwrite($agibin, $data);
+$data = "use POSIX qw(strftime ceil floor);\n";
+fwrite($agibin, $data);
+$data = "sub timestamp()\n";
+fwrite($agibin, $data);
+$data = "	{\n";
+fwrite($agibin, $data);
+$data = "	my \$now = strftime \"%Y%m%d%H%M%S\", localtime;\n";
+fwrite($agibin, $data);
+$data = "return \$now;\n";
+fwrite($agibin, $data);
+$data = "	}\n";
+fwrite($agibin, $data);
+$data = "\$datecall = timestamp();\n";
+fwrite($agibin, $data);
+$data = "\$SIG{HUP}  = 'ignore_hup';\n";
+fwrite($agibin, $data);
+$data = "sub ignore_hup\n";
+fwrite($agibin, $data);
+$data = "	{\n";
+fwrite($agibin, $data);
+$data = "\n";
+fwrite($agibin, $data);
+$data = "	}\n";
+fwrite($agibin, $data);
+$data = "use DBI;\n";
+fwrite($agibin, $data);
+$data = "use Asterisk::AGI;\n";
+fwrite($agibin, $data);
+$data = "sub load_config()\n";
+fwrite($agibin, $data);
+$data = "	{\n";
+fwrite($agibin, $data);
+$data = "	open(CFG, \"</var/lib/astcc/astcc_".$user."-config.conf\");\n";
+fwrite($agibin, $data);
+$data = "	while(<CFG>)\n";
+fwrite($agibin, $data);
+$data = "		{\n";
+fwrite($agibin, $data);
+$data = "		chomp;\n";
+fwrite($agibin, $data);
+$data = "		my (\$var, \$val) = split(/\\s*\\=\\s*/);\n";
+fwrite($agibin, $data);
+$data = "		\$config{\$var} = \$val;\n";
+fwrite($agibin, $data);
+$data = "		}\n";
+fwrite($agibin, $data);
+$data = "	close(CFG);\n";
+fwrite($agibin, $data);
+$data = "	}\n";
+fwrite($agibin, $data);
+$data = "require '/var/lib/asterisk/agi-bin/callshop.agi';\n";
+fwrite($agibin, $data);
+fclose($agibin);
+
+////Create now astcc_user-config file
+shell_exec("echo |cp -p /home/www/".$admindir."/admin/astccconf /var/lib/astcc/astcc_".$user."-config.conf");
+$cconf = "/var/lib/astcc/astcc_".$user."-config.conf";
+$astcconf = fopen($cconf, 'a+');
+$data = "dbname = astcc_".$user."\n";
+fwrite($astcconf, $data);
+$data = "pathc = ".$user."\n";
+fwrite($astcconf, $data);
+$data = "tva = ".$vat."\n";
+fwrite($astcconf, $data);
+fclose($astcconf);
+
+////insert range cabines in asterisk numberpool table for this user
+mysql_select_db($dbasteriskconf , $link);
+$i = 0;
+while ($i <= 19){
+mysql_query("INSERT INTO numberpool (extnumber) VALUE ('$starcabine' + '$i')");
+$i++;
+}
+
+////create user login and password in astcc database
+$astbase= 'astcc_'.$user.'';
+mysql_select_db($astbase , $link);
+$tod = date('Y-m-d');
+$crpas = md5($password);
+$cryptpass = crypt($password);
+mysql_query("INSERT INTO webadmins (admin_username , admin_password , admin_status , admin_vorname , admin_nachname , created) VALUE ('$user' , '$crpas' , '0' , '$user' , '$user' , '$tod')") or die (mysql_error());
+
+
+////Reload asterisk dialplan
+//$reboot=`/usr/sbin/asterisk -rx 'restart now'`; echo "$reboot";
+$back=`/usr/sbin/asterisk -rx 'dialplan reload'`; echo "$back";
+
+
+////Go back now
+echo "<SCRIPT LANGUAGE='JavaScript'>window.location.replace('custom.php')</script>";
+###########################create all###########################
+}
+
+////display existing users
+
+echo'<table>
+	<tr>
+	<th>LOGIN</th>
+	<th>PASSWORD</th>
+	<th>NOM</th>
+	<th>PRENOM</th>
+	<th>ADRESSE</th>
+	<th>CABINE DEPART</th>
+	<th>CABINE FIN</th>
+	<th>URL</th>
+	<th>EFFACER</th>
+	</tr>';
+
+// On récupère les clients dans le rouge dans yesterdayCost on les listes dans la page custom
+$listClientRed = mysql_query("select * from custom C, yesterdayCost Y where C.login = Y.account AND email='actif' and sendMail = '1'");
+
+// On liste les autres clients sauf ceux dans le rouge avec la table custom
+$listClientNotRed = mysql_query("select * from custom WHERE starcabine >'1' AND email='actif'
+and login NOT IN(select account from custom C, yesterdayCost Y where C.login = Y.account and sendMail = '1') order by user");
+
+// On affiche les clients dans le rouge
+while($clientRed = mysql_fetch_assoc($listClientRed))
+{
+	echo'<tr bgcolor="#FFCC66" title="Solde: '.($clientRed['soldettc'] / 10000).'">
+	<td class="tdblue">'.$clientRed['login'].'</td>
+	<td class="tdblue">'.$clientRed['password'].'</td>
+	<td class="tdblue">'.$clientRed['name'].'</td>
+	<td class="tdblue">'.$clientRed['surname'].'</td>
+	<td class="tdblue">'.$clientRed['address'].'</td>
+	<td class="tdblue">'.($clientRed['starcabine']).'</td>
+	<td class="tdblue">'.($clientRed['starcabine'] + 19).'</td>
+	<td class="tdred"><a href="http://'.$_SERVER['SERVER_ADDR'].'/'.$clientRed['login'].'" target="_new">Website</a></td>
+	<td class="tdred"><a href="del.php?user='.$clientRed['login'].'&startcabine='.$clientRed['starcabine'].'&login='.$clientRed['login'].'">
+	Effacer</a></td>
+	</tr>';
+}
+
+// On affiche les autres clients
+while($clientNotRed = mysql_fetch_row($listClientNotRed))
+{
+	echo'<tr title="Solde: '.($clientNotRed[10] / 10000).'">
+	<td class="tdblue">'.$clientNotRed[5].'</td>
+	<td class="tdblue">'.$clientNotRed[6].'</td>
+	<td class="tdblue">'.$clientNotRed[1].'</td>
+	<td class="tdblue">'.$clientNotRed[2].'</td>
+	<td class="tdblue">'.$clientNotRed[3].'</td>
+	<td class="tdblue">'.($clientNotRed[7]).'</td>
+	<td class="tdblue">'.($clientNotRed[7] + 19).'</td>
+	<td class="tdred"><a href="http://'.$_SERVER['SERVER_ADDR'].'/'.$clientNotRed[5].'" target="_new">Website</a></td>
+	<td class="tdred"><a href="del.php?user='.$clientNotRed[5].'&startcabine='.$clientNotRed[7].'&login='.$clientNotRed[5].'">Effacer</a></td>
+	</tr>';
+}
+echo "</table></div><br/>";
+?>
+<div align="center">COMPTE INACTIF</div>
+</br>
+<?
+echo'<table>
+	<tr>
+	<th>LOGIN</th>
+	<th>PASSWORD</th>
+	<th>NOM</th>
+	<th>PRENOM</th>
+	<th>ADRESSE</th>
+	<th>CABINE DEPART</th>
+	<th>CABINE FIN</th>
+	<th>URL</th>
+	<th>EFFACER</th>
+	</tr>';
+	
+$listClientRedinact = mysql_query("select * from custom C, yesterdayCost Y where C.login = Y.account AND email='off' and sendMail = '1'");
+
+$listClientNotRedinact = mysql_query("select * from custom WHERE starcabine >'1' AND email='off'
+and login NOT IN(select account from custom C, yesterdayCost Y where C.login = Y.account and sendMail = '1') order by user");
+
+while($clientRed = mysql_fetch_assoc($listClientRedinact))
+{
+	
+	echo'<tr bgcolor="#FFCC66" title="Solde: '.($clientRed['soldettc'] / 10000).'">
+	<td class="tdblue">'.$clientRed['login'].'</td>
+	<td class="tdblue">'.$clientRed['password'].'</td>
+	<td class="tdblue">'.$clientRed['name'].'</td>
+	<td class="tdblue">'.$clientRed['surname'].'</td>
+	<td class="tdblue">'.$clientRed['address'].'</td>
+	<td class="tdblue">'.($clientRed['starcabine']).'</td>
+	<td class="tdblue">'.($clientRed['starcabine'] + 19).'</td>
+	<td class="tdred"><a href="http://'.$_SERVER['SERVER_ADDR'].'/'.$clientRed['login'].'" target="_new">Website</a></td>
+	<td class="tdred"><a href="del.php?user='.$clientRed['login'].'&startcabine='.$clientRed['starcabine'].'&login='.$clientRed['login'].'">
+	Effacer</a></td>
+	</tr>';
+}
+
+// On affiche les autres clients
+while($clientNotRed = mysql_fetch_row($listClientNotRedinact))
+{
+	echo'<tr title="Solde: '.($clientNotRed[10] / 10000).'">
+	<td class="tdblue">'.$clientNotRed[5].'</td>
+	<td class="tdblue">'.$clientNotRed[6].'</td>
+	<td class="tdblue">'.$clientNotRed[1].'</td>
+	<td class="tdblue">'.$clientNotRed[2].'</td>
+	<td class="tdblue">'.$clientNotRed[3].'</td>
+	<td class="tdblue">'.($clientNotRed[7]).'</td>
+	<td class="tdblue">'.($clientNotRed[7] + 19).'</td>
+	<td class="tdred"><a href="http://'.$_SERVER['SERVER_ADDR'].'/'.$clientNotRed[5].'" target="_new">Website</a></td>
+	<td class="tdred"><a href="del.php?user='.$clientNotRed[5].'&startcabine='.$clientNotRed[7].'&login='.$clientNotRed[5].'">Effacer</a></td>
+	</tr>';
+}
+echo "</table></div><br/>";
+require('footer.php');
+?>
